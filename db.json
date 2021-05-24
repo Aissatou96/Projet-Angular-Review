@@ -7,6 +7,22 @@
       "quantity": 600,
       "selected": true,
       "available": true
+    },
+    {
+      "id": 2,
+      "name": "Scanner",
+      "price": 150000,
+      "quantity": 45,
+      "selected": true,
+      "available": true
+    },
+    {
+      "id": 3,
+      "name": "Table",
+      "price": 1500,
+      "quantity": 0,
+      "selected": false,
+      "available": true
     }
   ]
 }

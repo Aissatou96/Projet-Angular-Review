@@ -4,6 +4,7 @@ import {Product} from "../../model/product";
 import {Observable, of} from "rxjs";
 import {AppDataState, DataStateEnum} from "../../../state/product.state";
 import {catchError, map, startWith} from "rxjs/operators";
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-products',
@@ -17,7 +18,8 @@ export class ProductsComponent implements OnInit {
   readonly DataStateEnum = DataStateEnum;
 
   constructor(
-    private productsService: ProductsService
+    private productsService: ProductsService,
+    private router:Router
   ) { }
 
   ngOnInit(): void {
@@ -65,6 +67,13 @@ export class ProductsComponent implements OnInit {
         this.onGetAllProducts();
       })
     }
+  }
 
+  onNewProduct(){
+    this.router.navigateByUrl("newProduct");
+  }
+
+  onEdit(p:Product){
+    this.router.navigateByUrl("editProduct/"+p.id);
   }
 }

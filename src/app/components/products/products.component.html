@@ -9,6 +9,9 @@
     <li>
       <button (click)="onGetAvailableProducts()" class="btn btn-sm btn-outline-info m-lg-2">Available</button>
     </li>
+    <li>
+      <button (click)="onNewProduct()" class="btn btn-sm btn-outline-info m-lg-2">New Product</button>
+    </li>
   </ul>
  <ul class="navbar navbar-nav m-lg-auto">
    <li>
@@ -65,6 +68,11 @@
           <td>
             <button (click)="onDelete(p)" class="btn btn-danger">
               <span class="fa fa-trash-o"></span>
+            </button>
+          </td>
+          <td>
+            <button (click)="onEdit(p)" class="btn btn-danger">
+              <span class="fa fa-edit"></span>
             </button>
           </td>
         </tr>
