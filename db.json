@@ -11,7 +11,7 @@
     {
       "id": 2,
       "name": "Scanner",
-      "price": 150000,
+      "price": 15000,
       "quantity": 45,
       "selected": true,
       "available": true
@@ -22,6 +22,30 @@
       "price": 1500,
       "quantity": 0,
       "selected": false,
+      "available": true
+    },
+    {
+      "name": "Souris tactile",
+      "price": 0,
+      "quantity": 0,
+      "selected": false,
+      "available": true,
+      "id": 4
+    },
+    {
+      "id": 5,
+      "name": "clé USB",
+      "price": 4500,
+      "quantity": 1,
+      "selected": true,
+      "available": true
+    },
+    {
+      "id": 6,
+      "name": "qsdfg",
+      "price": 123,
+      "quantity": 0,
+      "selected": true,
       "available": true
     }
   ]
