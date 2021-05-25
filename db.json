@@ -5,7 +5,7 @@
       "name": "Computer",
       "price": 4300,
       "quantity": 600,
-      "selected": true,
+      "selected": false,
       "available": true
     },
     {
@@ -18,17 +18,17 @@
     },
     {
       "id": 3,
-      "name": "Table",
+      "name": "Table Bureau",
       "price": 1500,
       "quantity": 0,
-      "selected": false,
+      "selected": true,
       "available": true
     },
     {
       "name": "Souris tactile",
       "price": 0,
       "quantity": 0,
-      "selected": false,
+      "selected": true,
       "available": true,
       "id": 4
     },
@@ -37,15 +37,7 @@
       "name": "clé USB",
       "price": 4500,
       "quantity": 1,
-      "selected": true,
-      "available": true
-    },
-    {
-      "id": 6,
-      "name": "qsdfg",
-      "price": 123,
-      "quantity": 0,
-      "selected": true,
+      "selected": false,
       "available": true
     }
   ]
